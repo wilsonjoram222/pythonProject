@@ -1,0 +1,6 @@
+x = len("python")
+print(x)
+m = max(20, 30, 40, 18)
+print(m)
+n = int(input("Enter a number: "))
+print(n)
