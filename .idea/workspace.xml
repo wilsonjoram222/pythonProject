@@ -4,24 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08f26635-091e-4dbc-b35a-b92159463b6b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/PythonProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/farmer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/function_def.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/institute.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recipt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recursive.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recursive_functions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/student.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workplace.py" afterDir="false" />
+    <list default="true" id="08f26635-091e-4dbc-b35a-b92159463b6b" name="Changes" comment="this is my functions code for the week">
+      <change afterPath="$PROJECT_DIR$/application form.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guess game.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reverse_name.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/what i do.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workplace.py" beforeDir="false" afterPath="$PROJECT_DIR$/workplace.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,14 +48,20 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.application form.executor": "Run",
+    "Python.convert.executor": "Run",
     "Python.farmer.executor": "Run",
     "Python.function_def.executor": "Run",
+    "Python.guess game.executor": "Run",
     "Python.institute.executor": "Run",
     "Python.product.executor": "Run",
     "Python.recipt.executor": "Run",
     "Python.recursive.executor": "Run",
+    "Python.reverse_name.executor": "Run",
     "Python.sat.executor": "Run",
     "Python.student.executor": "Run",
+    "Python.what i do.executor": "Run",
+    "Python.workplace.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -87,6 +84,15 @@
       <option name="presentableId" value="Default" />
       <updated>1779114368484</updated>
     </task>
+    <task id="LOCAL-00001" summary="this is my functions code for the week">
+      <option name="closed" value="true" />
+      <created>1780135220682</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1780135220684</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -99,5 +105,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="this is my functions code for the week" />
+    <option name="LAST_COMMIT_MESSAGE" value="this is my functions code for the week" />
   </component>
 </project>
