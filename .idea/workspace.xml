@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08f26635-091e-4dbc-b35a-b92159463b6b" name="Changes" comment="this is my functions code for the week">
-      <change afterPath="$PROJECT_DIR$/application form.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/convert.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guess game.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reverse_name.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/what i do.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grading system.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application form.py" beforeDir="false" afterPath="$PROJECT_DIR$/application form.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/workplace.py" beforeDir="false" afterPath="$PROJECT_DIR$/workplace.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +25,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;wilsonjoram222&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/wilsonjoram222/pythonProject.git&quot;,
+    &quot;accountId&quot;: &quot;98dc6f29-34cc-4d02-a846-9fd829f196ff&quot;
+  }
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/sat.py" root0="SKIP_INSPECTION" />
   </component>
@@ -52,6 +60,7 @@
     "Python.convert.executor": "Run",
     "Python.farmer.executor": "Run",
     "Python.function_def.executor": "Run",
+    "Python.grading system.executor": "Run",
     "Python.guess game.executor": "Run",
     "Python.institute.executor": "Run",
     "Python.product.executor": "Run",

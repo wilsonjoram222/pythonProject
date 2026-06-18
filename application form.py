@@ -1,11 +1,16 @@
 class ApplicationForm:
 
     def capture_info(self):
-        print("===== SCHOOL APPLICATION FORM =====")
+        print("\n===== SCHOOL APPLICATION FORM =====")
+        print("===== UICT DEPARTMENT OF INFORMATION TECHNOLOGY =====")
 
         self.name = input("Enter Name: ")
         self.age = input("Enter Age: ")
         self.gender = input("Enter Gender: ")
+        self.date_of_birth = input("Enter Date of Birth: ")
+        self.nationality = input("Enter Nationality: ")
+        self.home_district = input("Enter Home District: ")
+        self.religion = input("Enter Religion: ")
 
         # Course selection
         print("\nAvailable Courses")
@@ -17,20 +22,18 @@ class ApplicationForm:
 
         choice = int(input("Select Course (1-5): "))
 
-        if choice == 1:
-            self.course = "Software Engineering"
-        elif choice == 2:
-            self.course = "Information Technology"
-        elif choice == 3:
-            self.course = "Computer Science"
-        elif choice == 4:
-            self.course = "Business Administration"
-        elif choice == 5:
-            self.course = "Accounting"
-        else:
-            self.course = "Not Selected"
+        courses = {
+            1: "Software Engineering",
+            2: "Information Technology",
+            3: "Computer Science",
+            4: "Business Administration",
+            5: "Accounting"
+        }
+
+        self.course = courses.get(choice, "Not Selected")
 
         self.phone = input("Enter Student Phone Number: ")
+        self.email = input("Enter Student Email: ")
 
         print("\n----- Guardian Information -----")
         self.guardian_name = input("Guardian Name: ")
@@ -43,8 +46,13 @@ class ApplicationForm:
         print("Student Name:", self.name)
         print("Age:", self.age)
         print("Gender:", self.gender)
+        print("Date of Birth:", self.date_of_birth)
+        print("Nationality:", self.nationality)
+        print("Home District:", self.home_district)
+        print("Religion:", self.religion)
         print("Course:", self.course)
         print("Student Phone:", self.phone)
+        print("Student Email:", self.email)
 
         print("\n----- Guardian Details -----")
         print("Guardian Name:", self.guardian_name)
@@ -54,12 +62,21 @@ class ApplicationForm:
 
         print("\nApplication Status: RECEIVED")
 
+    def start(self):
+        self.capture_info()
+        self.display_info()
+
+        again = input("\nDo you want to enter another application? (yes/no): ").lower()
+
+        if again == "yes":
+            print("\nStarting another application...\n")
+            self.start()      # this makes the form Recursive
+        else:
+            print("\nThank you for using the application system.")
+
 
 # Create object
 student = ApplicationForm()
 
-# Capture information
-student.capture_info()
-
-# Display information
-student.display_info()
+# Start the recursive application
+student.start()
